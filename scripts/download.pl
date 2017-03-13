@@ -150,6 +150,7 @@ foreach my $mirror (@ARGV) {
 			push @mirrors, "http://ftp.de.kernel.org/pub/$dir";
 			push @mirrors, "ftp://ftp.fr.kernel.org/pub/$dir";
 			push @mirrors, "http://ftp.fr.kernel.org/pub/$dir";
+			push @mirrors, "https://www.kernel.org/pub/$dir";
 		}
     } elsif ($mirror =~ /^\@GNOME\/(.+)$/) {
 		push @mirrors, "http://ftp.gnome.org/pub/GNOME/sources/$1";
